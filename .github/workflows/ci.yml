@@ -12,7 +12,7 @@ jobs:
       contents: read
       packages: write
     env:
-      OWNER: ${{ github.repository_owner | lowercase }}
+      OWNER: "aryan49sm"
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
